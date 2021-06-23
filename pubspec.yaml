@@ -1,0 +1,24 @@
+name: biometric_test
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.1.4
+  biometric_storage: 2.0.2
+  get_storage: 2.0.2
+  faker: 2.0.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  pedantic: 1.11.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
